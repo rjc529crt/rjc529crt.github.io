@@ -1,0 +1,12 @@
+body {
+	background-color: purple;
+}
+hl, p{
+	color: (255,0,0);
+	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+}
+p{ color: #FF0000; 
+	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+}
+
+}
