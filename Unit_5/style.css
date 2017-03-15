@@ -1,0 +1,19 @@
+body {
+	background-color: purple;
+Header {
+	background-color: pink
+	border: 1px black solid;
+	padding: 20px
+	article-color: #E89C6C;
+	aside-Color: #FFE2B8;
+}
+}
+hl, p{
+	color: (255,0,0);
+	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+}
+p{ color: #FF0000; 
+	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+}
+
+}
