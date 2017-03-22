@@ -1,0 +1,48 @@
+body {
+	background-color: purple;
+Header {
+	background-color: pink
+	border: 1px black solid;
+	padding: 20px
+	article-color: #E89C6C;
+	aside-Color: #FFE2B8;
+	#two_column {
+		background-color: #FFB7CF;
+		border: 1px black solid;
+		padding: 20px;
+	}
+}
+
+#left {
+	background-color: #E8582A2
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear:both
+	height: 0;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+
+hl, p{
+	color: (255,0,0);
+	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+}
+p{ color: #FF0000; 
+	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+}
+
+}
