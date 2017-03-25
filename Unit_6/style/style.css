@@ -1,3 +1,5 @@
+
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: purple;
 Header {
@@ -14,11 +16,18 @@ Header {
 }
 
 #left {
-	background-color: #E8582A2
+	background-color: violet; 
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 30%;
+}
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
 }
 .clearfix: after {
 	visibility: hidden;
@@ -28,21 +37,17 @@ Header {
 	clear:both
 	height: 0;
 }
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
-}
-
 
 hl, p{
 	color: (255,0,0);
 	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+	* { margin:0; padding:0; box-sizing:border-box; }
+
 }
 p{ color: #FF0000; 
 	font-family: @import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+	* { margin:0; padding:0; box-sizing:border-box; }
+
 }
 
 }
