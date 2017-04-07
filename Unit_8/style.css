@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: purple;
+}
+
+header {
+	background-color: pink
+	border: 1px black solid;
+	padding: 20px
+}
+
+article {
+	color: #E89C6C;
+}
+
+aside {
+	color: #FFE2B8;
+}
+	
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+#left {
+	background-color: violet; 
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 100%;
+}
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 100%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear:both;
+	height: 0;
+}
+
+h1, p{
+	color: #FF0000; 
+	font-family: 'Roboto', sans-serif;
+
+}
+
